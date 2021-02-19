@@ -10,3 +10,9 @@ conta2.extrato()
 
 conta.limite = 50.0
 print(conta.limite)
+
+conta.saca(2000.0)
+
+codigo = Conta.codigos_bancos("Nubank")
+print(codigo)
+
